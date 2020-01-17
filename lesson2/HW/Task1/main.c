@@ -3,17 +3,21 @@
 #include <stdio.h>
 
 
-void atoi (char *c){
-    int i;
-    int negative;
-    int num;
+int dig(int n){
 
-    while (c[i]){
-        
-    }
+    if (n != 0)
+        dig(n/2);
+    else return 0;
+
+    printf("%d", n % 2);
+    return 0;
 }
 
-int main() {
-    printf("Hello, World!\n");
+int main(int argc, char **argv) {
+    int n;
+    printf("Insert your num: ");
+    scanf("%d", &n);
+    dig(n);
+
     return 0;
 }
