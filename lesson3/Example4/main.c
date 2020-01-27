@@ -10,38 +10,31 @@ void swap(int *a, int *b){
     *a = *a - *b;
 }
 
-void print(int N, int *a){
-    int i;
-    for (i = 0; i  < N ; i++) {
-        printf("%6i", a[i]);
-    }
-    printf("\n");
-}
-
 int main(int argc, char **argv) {
-    int a[MaxN];
-    int N;
-    FILE *in;
-    in = fopen("Insert your path here", "r");
-    fscanf(in, "%i", &N);
+    int array[100];
+    int c, d, n;
 
-    int i;
+    printf("Enter the number of elements: ");
+    scanf("%d",&n);
 
-    for (i = 0; i < N; i++) {
-        fscanf(in, "%i", &a[i]);
-    }
-    fclose(in);
-    puts("Array before sort");
-    printf(N,a);
+    printf("Enter your integers: ");
 
-    int j = 0;
-    for (i = 0; i < N; i++)
-        for(j = 0; j < N - 1; j++)
-            if(a[j] > a[j + 1]){
-                swap(&a[j], &a[j + 1]);
+    for (c = 0; c < n; c++)
+        scanf("%d", &array[c]);
+
+    for (c = 0;  c < n - 1; c++){
+        for (d = 0; d < n - c - 1; d++)
+        {
+            if(array[d] > array[d - 1]) //For decreasing order use "<"
+            {
+                swap(&array[d],&array[d + 1]);
             }
-    puts("Array after sort");
-    print(N,a);
+        }
+    }
+    printf("Sorted array in ascending order:\n");
+
+    for(c = 0; c < n; c++)
+        printf("%d\n", array[c]);
 
 
     return 0;
