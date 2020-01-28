@@ -12,6 +12,7 @@ void swap(int *a, int *b){
 
 int main(int argc, char **argv) {
     int array[100];
+    int count = 0;
     int c, d, n;
 
     printf("Enter the number of elements: ");
@@ -27,6 +28,7 @@ int main(int argc, char **argv) {
         {
             if(array[d] > array[d - 1]) //For decreasing order use "<"
             {
+                count++;
                 swap(&array[d],&array[d + 1]);
             }
         }
@@ -36,6 +38,6 @@ int main(int argc, char **argv) {
     for(c = 0; c < n; c++)
         printf("%d\n", array[c]);
 
-
+    printf("Count:%d", count);
     return 0;
 }
