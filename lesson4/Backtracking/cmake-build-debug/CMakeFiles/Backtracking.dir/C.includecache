@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/miketsatryan/Documents/GitHub/geekalgoc/lesson4/Backtracking/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

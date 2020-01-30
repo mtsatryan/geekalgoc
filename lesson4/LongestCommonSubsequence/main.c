@@ -14,15 +14,13 @@ int lcs(char *A, char *B){
 
 int main() {
 
-    char X[] = "abc";
-    char Y[] = "abcdefg";
+    char A[] = "GEEKBRAINS";
+    char B[] = "GEEKMINDS";
 
-    int m = strlen(X);
-    int n = strlen(Y);
+    int m = strlen(A);
+    int n = strlen(B);
 
-    printf("Length of LCS is %d", lcs( X, Y ) );
-
-    return 0;
+    printf("Length of LCS is %d", lcs(A, B));
 
     return 0;
 }
