@@ -34,16 +34,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87af4ac-939f-4c7b-9427-4f01ca45e2cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Backtracking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestCommonSubsequence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonSubsequence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestCommonSubsequence/cmake-build-debug/CMakeFiles/LongestCommonSubsequence.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonSubsequence/cmake-build-debug/CMakeFiles/LongestCommonSubsequence.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestCommonSubsequence/cmake-build-debug/LongestCommonSubsequence" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonSubsequence/cmake-build-debug/LongestCommonSubsequence" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestCommonSubsequence/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonSubsequence/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="b87af4ac-939f-4c7b-9427-4f01ca45e2cc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -95,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -171,14 +162,15 @@
       <updated>1580299529377</updated>
       <workItem from="1580299530605" duration="6922000" />
       <workItem from="1580317809036" duration="1260000" />
+      <workItem from="1580386657274" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8182000" />
+    <option name="totallyTimeSpent" value="8351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021459227" />
@@ -218,7 +210,7 @@
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
